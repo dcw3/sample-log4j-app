@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+    <!-- General description of your web application -->
+
+    <display-name>My Web Application</display-name>
+    <description>
+      This is version X.X of an application to perform
+      a wild and wonderful task, based on servlets and
+      JSP pages.  It was written by Dave Developer
+      (dave@mycompany.com), who should be contacted for
+      more information.
+    </description>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>mypackage.HelloWorld</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+</web-app>
